@@ -16,7 +16,7 @@ public class DatagramSocketServer {
         socket = new DatagramSocket(port);
         System.out.println(numToResolve);
     }
-
+//
     public void runServer() throws IOException {
         byte [] receivingData = new byte[4];
         byte [] sendingData;
